@@ -1,3 +1,15 @@
 {
-  "extends": "next/core-web-vitals"
+  "root": true,
+  "extends": "custom",
+  "env": {
+    "jest": true,
+    "es6": true
+  },
+  "globals": {
+    "expect": true
+  },
+  "parserOptions": {
+    "sourceType": "module",
+    "allowImportExportEverywhere": true
+  }
 }
