@@ -1,3 +1,5 @@
-export default function Home() {
-    return <div>Commercial Lifts</div>
+import {CommercialLifts} from "@/modules/CommercialLifts";
+
+export default function Page() {
+    return <CommercialLifts/>
 }

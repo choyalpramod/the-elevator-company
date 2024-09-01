@@ -28,7 +28,7 @@ export const ImageSlider = ({images}: ImageSliderProps) => {
                     <div className="image-slider-item flex items-center justify-center"
                          style={{backgroundImage: `url(${imageUrl})`}}>
                         {content && (
-                            <article className="text-white text-xl lg:w-1/2 w-4/5 text-center">
+                            <article className="text-white text-md lg:text-xl lg:w-1/2 w-4/5 text-center">
                                 {content}
                             </article>
                         )}

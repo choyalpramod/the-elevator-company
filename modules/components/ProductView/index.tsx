@@ -1,0 +1,1 @@
+export {ProductView, type ProductType} from './ProductView'
