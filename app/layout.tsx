@@ -6,6 +6,7 @@ import React from "react";
 import {Footer} from "@/modules/components/Footer";
 import Head from 'next/head';
 import {OurPresence} from "@/modules/components/OurPresence";
+import {Analytics} from '@vercel/analytics/react';
 
 const inter = Inter({subsets: ["latin"]});
 
@@ -29,6 +30,7 @@ export default function RootLayout({children}: Readonly<{
             <OurPresence/>
             <Footer/>
         </main>
+        <Analytics/>
         </body>
         </html>
     );
