@@ -6,7 +6,7 @@ interface TitleComponentProps {
 export const TitleComponent = ({title, className = ''}: TitleComponentProps) => {
     return (
         <div
-            className={`bg-black p-8 text-center border-t border-white ${className}`}
+            className={`bg-black p-8 text-center ${className}`}
             style={{
                 backgroundImage: `url(/lines.png)`,
                 backgroundSize: 'cover',

@@ -22,13 +22,13 @@ export const ProductView = ({list}: ProductViewProps) => {
         <div>
             {list.map((product, index) => (
                 <div key={`elevator-listing-${product.title}-${index}`}>
-                    <TitleComponent title={product.title}/>
+                    <TitleComponent title={product.title} className="uppercase"/>
                     <div>
                         {product.contents.map((content, indexK) => (
                             <div key={`elevator-${content.imageUrl}-${indexK}`}
                                  className="p-8 flex items-center">
-                                <div className="flex-1">
-                                    <Image src={content.imageUrl} alt={product.title} height={600} width={600}/>
+                                <div className="flex-1 flex justify-center">
+                                    <Image src={content.imageUrl} alt={product.title} height={500} width={500}/>
                                 </div>
                                 <div className="flex-1">
                                     <h3 className="text-2xl">{content.title}</h3>
