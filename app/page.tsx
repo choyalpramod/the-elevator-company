@@ -1,12 +1,5 @@
-import {ImageSlider} from "@/modules/Home/HomeBanner";
-import {Journey} from "@/modules/Home/Journey";
+import {Dashboard} from "@/modules/Dashboard";
 
-export default function Home() {
-    return (
-        <div>
-            <ImageSlider/>
-            <Journey/>
-            
-        </div>
-    );
+export default function HomePage() {
+    return <Dashboard/>
 }

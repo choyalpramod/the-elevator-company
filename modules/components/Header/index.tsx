@@ -1,6 +1,6 @@
 import React from "react";
-import {Logo} from "@/modules/Header/Logo"
-import {Navigation} from "@/modules/Header/Navigation";
+import {Logo} from "@/modules/components/Header/Logo"
+import {Navigation} from "@/modules/components/Header/Navigation";
 
 export const Header = () => {
     return (

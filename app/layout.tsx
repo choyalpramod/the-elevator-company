@@ -1,9 +1,11 @@
 import type {Metadata} from "next";
 import {Inter} from "next/font/google";
 import "./globals.css";
-import {Header} from "@/modules/Header";
+import {Header} from "@/modules/components/Header";
 import React from "react";
-import {Footer} from "@/modules/Footer";
+import {Footer} from "@/modules/components/Footer";
+import Head from 'next/head';
+import {OurPresence} from "@/modules/components/OurPresence";
 
 const inter = Inter({subsets: ["latin"]});
 
@@ -17,10 +19,14 @@ export default function RootLayout({children}: Readonly<{
 }>) {
     return (
         <html lang="en">
+        <Head>
+            <meta name="robots" content="index, follow"/>
+        </Head>
         <body className={inter.className}>
         <main className="main-styles">
             <Header/>
             {children}
+            <OurPresence/>
             <Footer/>
         </main>
         </body>

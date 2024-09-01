@@ -2,8 +2,8 @@ import Image from 'next/image'
 
 export const Journey = () => {
     return (
-        <div className="flex items-center gap-2">
-            <section className="flex-1">
+        <div className="flex items-center gap-10 flex-col lg:flex-row">
+            <section className="flex-1 px-10">
                 <header>
                     <h1 className="text-4xl text-center py-6">Our Journey</h1>
                 </header>

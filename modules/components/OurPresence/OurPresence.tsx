@@ -7,7 +7,7 @@ const presenceList = [
     "Haryana",
 ]
 
-export const Presence = () => {
+export const OurPresence = () => {
     return (
         <section className="flex flex-col items-center gap-4 py-8 bg-black primary-text-color">
             <h2 className="text-3xl">
