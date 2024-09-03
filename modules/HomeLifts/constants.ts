@@ -16,7 +16,7 @@ export const homeLifts: ProductType[] = [
     {
         title: 'Felix',
         contents: [{
-            imageUrl: '/product-images/felix-02.png',
+            imageUrl: '/product-images/felix-01.jpg',
             title: 'Hydraulic',
             contents: [
                 'Compliance: Meets European Machinery Directive 2006/42/EC',
