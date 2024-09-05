@@ -59,14 +59,14 @@ export const commercialLifts: ProductType[] = [
             {
                 imageUrl: '/product-images/eleventra-01.jpg',
                 contents: [
-                    'Good Lift',
+                    'Goods Lift',
                     'Car Lift',
                 ],
             },
             {
                 imageUrl: '/product-images/eleventra-02.jpg',
                 contents: [
-                    'Strecher Lift',
+                    'Stretcher Lift',
                     'Service Lift',
                     'Scissor Lift'
                 ],
