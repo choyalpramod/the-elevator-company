@@ -5,7 +5,7 @@ export const Journey = () => {
         <div className="flex items-center gap-10 flex-col lg:flex-row">
             <section className="flex-1 px-10">
                 <header>
-                    <h1 className="text-4xl text-center py-6">Our Journey</h1>
+                    <h2 className="text-4xl text-center py-6">Our Journey</h2>
                 </header>
                 <article>
                     <p>
