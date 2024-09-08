@@ -4,7 +4,7 @@ import {getLogoImageUrl} from "@/utils/helper";
 
 export const Logo = () => {
     return (
-        <header>
+        <div>
             <figure className="flex items-center p-2">
                 <div>
                     <Image
@@ -20,6 +20,6 @@ export const Logo = () => {
                     <h3 className="logo-title-styles text-xs uppercase">crafting precision for elevators</h3>
                 </figcaption>
             </figure>
-        </header>
+        </div>
     );
 };

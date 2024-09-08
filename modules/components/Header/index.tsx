@@ -4,9 +4,9 @@ import {Navigation} from "@/modules/components/Header/Navigation";
 
 export const Header = () => {
     return (
-        <div className="flex justify-between items-center bg-black">
+        <header className="flex flex-col lg:flex-row justify-between items-center bg-black ">
             <Logo/>
             <Navigation/>
-        </div>
+        </header>
     )
 }

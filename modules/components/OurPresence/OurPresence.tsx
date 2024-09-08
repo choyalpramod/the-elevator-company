@@ -13,7 +13,7 @@ export const OurPresence = () => {
             <h2 className="text-3xl">
                 Our Presence
             </h2>
-            <div className="flex justify-center text-white">
+            <div className="flex justify-center text-white flex-wrap">
                 {presenceList.map((presence, index) => (
                     <div className="px-3 text-xl" key={`presence-${presence}-${index}`}>{presence}</div>
                 ))}
