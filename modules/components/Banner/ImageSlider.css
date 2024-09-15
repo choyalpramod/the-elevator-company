@@ -1,23 +1,13 @@
 .image-slider-item {
-    height: 50vh;
+    height: 60vh;
     width: 100%;
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
 }
 
-@media screen and (max-width: 992px) {
-    .image-slider-item {
-        height: 40vh;
-    }
-}
-
-@media screen and (max-width: 786px) {
-
-}
-
 @media screen and (max-width: 576px) {
     .image-slider-item {
-        height: 30vh;
+        height: 40vh;
     }
 }
