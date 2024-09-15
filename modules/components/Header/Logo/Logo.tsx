@@ -11,7 +11,7 @@ export const Logo = () => {
                     <div>
                         <Image
                             src={getLogoImageUrl()}
-                            alt="The Elevator Company Logo"
+                            alt="The Elevator Company India Logo"
                             height={100}
                             width={95}
                             className="w-12"
