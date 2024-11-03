@@ -1,5 +1,7 @@
 import {ImageSlider, ImageUrlType} from "@/modules/components/Banner";
 import {Journey} from "./Journey";
+import ContactUs from "@/modules/ContactUs";
+import {OurCategory} from "@/modules/Dashboard/OurCategory";
 
 const imageUrls: ImageUrlType[] = [
     {
@@ -15,6 +17,8 @@ export const Dashboard = () => {
         <div>
             <ImageSlider images={imageUrls}/>
             <Journey/>
+            <OurCategory/>
+            <ContactUs/>
         </div>
     );
 }
