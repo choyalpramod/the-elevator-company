@@ -33,7 +33,7 @@ export const Footer = () => {
                     <address className="flex items-center gap-2">
                         <FaMapMarkerAlt aria-label="Location icon"/>
                         <div>
-                            <p>4/1, Tilak Nagar, Janakpuri</p>
+                            <p>B-1, 639 A, Janakpuri</p>
                             <p>New Delhi</p>
                             <p>Delhi, 110058</p>
                         </div>
